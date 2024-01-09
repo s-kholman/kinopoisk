@@ -16,7 +16,7 @@ class Container
 
     public function __construct()
     {
-        $this->registerServices();
+        $this->registerServices(); //Регистрируем наши классы вызывается из construct App.php который в свою очередь вызван из index.php
     }
 
     private function registerServices()

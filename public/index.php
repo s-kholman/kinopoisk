@@ -8,4 +8,4 @@ use App\Kernel\App;
 
 $app = new App();
 
-$app->run();
+$app->run(); //Объект класса App, вызываем метод run
